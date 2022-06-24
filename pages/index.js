@@ -1,8 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Card from "./Card";
 import Footer from "./Footer";
-import Form from "./Form";
 import Navbar from "./Navbar";
 
 export default function Home() {
@@ -15,12 +13,12 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Maninder.dev</h1>
         <Form />
         <Card />
-      </main>
-
+      </main> */}
+      <h1 className="text-3xl font-bold p-10">Hello world!</h1>
       <Footer />
     </div>
   );
