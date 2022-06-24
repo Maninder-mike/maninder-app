@@ -108,6 +108,17 @@
   margin-left: 0.5rem;
 }
 
+.nav {
+  align-items: center;
+  background-color: #0070f3;
+  color: #eaeaea;
+  font-size: larger;
+  font-weight: bolder;
+  /* font-variant: small-caps; */
+  height: auto;
+  padding: 15px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
