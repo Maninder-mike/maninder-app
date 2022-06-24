@@ -114,9 +114,17 @@
   color: #eaeaea;
   font-size: larger;
   font-weight: bolder;
-  /* font-variant: small-caps; */
   height: auto;
   padding: 15px;
+}
+
+.form {
+  padding: 10px;
+  margin: 10px;
+}
+.input {
+  padding: 10px;
+  margin: 5px;
 }
 
 @media (max-width: 600px) {

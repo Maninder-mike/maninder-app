@@ -5,6 +5,9 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <div>Home</div>
+      <div>Projects</div>
+      <div>Services</div>
+      <div>About</div>
     </nav>
   );
 };
