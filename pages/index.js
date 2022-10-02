@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { FooterBar } from "./components/FooterBar";
+import FooterBar from "./components/FooterBar";
 import NavBar from "./components/NavBar";
 
 export default function Home() {
