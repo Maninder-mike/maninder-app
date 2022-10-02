@@ -10,8 +10,16 @@
   font-family: "Courier New", Courier, monospace;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 0.3rem;
   margin-left: 1rem;
+}
+
+@media (max-width: 500px) {
+  .list {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 .li {
@@ -21,4 +29,11 @@
 
 .li:hover {
   font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .li {
+    margin: .5rem 1rem;
+
+  }
 }

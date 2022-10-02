@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { FooterBar } from "./components/FooterBar";
 import NavBar from "./components/NavBar";
 
 export default function Home() {
@@ -51,16 +52,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Made with 🖤 in Canada by Maninder
-          <span className={styles.logo}></span>
-        </a>
-      </footer>
+      <FooterBar />
     </div>
   );
 }
