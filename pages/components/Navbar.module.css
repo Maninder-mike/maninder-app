@@ -1,0 +1,24 @@
+.navMain {
+  background-color: cornflowerblue;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.list {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: row;
+  padding: 0.3rem;
+  margin-left: 1rem;
+}
+
+.li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.li:hover {
+  font-weight: 700;
+}
