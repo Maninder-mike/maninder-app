@@ -1,5 +1,5 @@
 .container {
-  padding: auto;
+  padding: 0 2rem;
 }
 
 .main {
@@ -108,28 +108,22 @@
   margin-left: 0.5rem;
 }
 
-.nav {
-  align-items: center;
-  background-color: #0070f3;
-  color: #eaeaea;
-  font-size: larger;
-  font-weight: bolder;
-  height: auto;
-  padding: 15px;
-}
-
-.form {
-  padding: 10px;
-  margin: 10px;
-}
-.input {
-  padding: 10px;
-  margin: 5px;
-}
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
   }
 }
