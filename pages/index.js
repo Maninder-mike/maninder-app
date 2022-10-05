@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import FooterBar from "./components/FooterBar";
 import NavBar from "./components/NavBar";
+import mainPic from "../public/mainimg.jpg";
 
 export default function Home() {
   return (
@@ -13,6 +15,15 @@ export default function Home() {
       </Head>
 
       <NavBar />
+
+      <Image
+        src={mainPic}
+        layout="intrinsic"
+        // width={500}
+        height={1800}
+        alt="Main Image"
+        placeholder="lazy"
+      />
 
       <main className={styles.main}>
         <h1 className={styles.title}>
