@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import FooterBar from "./components/FooterBar";
 import NavBar from "./components/NavBar";
 import mainPic from "../public/mainimg.jpg";
+import { Projects } from "./components/Projects";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         src={mainPic}
         layout="intrinsic"
         // width={500}
-        height={1800}
+        height={2000}
         alt="Main Image"
         placeholder="lazy"
       />
@@ -62,6 +63,8 @@ export default function Home() {
           </a>
         </div>
       </main>
+
+      <Projects />
 
       <FooterBar />
     </div>

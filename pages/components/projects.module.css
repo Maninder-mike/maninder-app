@@ -1,0 +1,12 @@
+.maindiv {
+  width: 100%;
+  min-height: 400px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subdiv {
+  background-color: lightcoral;
+  width: 50%;
+}
