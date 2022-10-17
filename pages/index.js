@@ -4,7 +4,9 @@ import styles from "../styles/Home.module.css";
 import FooterBar from "./components/FooterBar";
 import NavBar from "./components/NavBar";
 import mainPic from "../public/mainimg.jpg";
-import { Projects } from "./components/Projects";
+// import netPic from "https://unsplash.com/photos/Fq1hfUvgjWw";
+
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -17,7 +19,7 @@ export default function Home() {
 
       <NavBar />
 
-      <Image
+      {/* <Image
         src={mainPic}
         layout="intrinsic"
         // width={500}
@@ -25,6 +27,7 @@ export default function Home() {
         alt="Main Image"
         placeholder="lazy"
       />
+      <hr/> */}
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -33,7 +36,7 @@ export default function Home() {
 
         {/* <p className={styles.description}> </p> */}
 
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -61,9 +64,12 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
+      <Projects />
+      <Projects />
+      <Projects />
       <Projects />
 
       <FooterBar />

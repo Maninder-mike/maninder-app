@@ -1,5 +1,13 @@
 .container {
   padding: 0rem;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    312deg,
+    #4158d0 0%,
+    #c850c0 45%,
+    #ffcc70 72%,
+    #44d159 100%
+  );
 }
 
 .main {
@@ -36,7 +44,7 @@
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .title {
@@ -49,6 +57,7 @@
 .description {
   text-align: center;
 }
+
 
 .description {
   margin: 4rem 0;
