@@ -1,13 +1,22 @@
 .maindiv {
   width: 100%;
   min-height: 400px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 2rem;
 }
 .subdiv {
-  background-color: lightcoral;
-  width: 50%;
+  background-color: #216cf8;
+  margin: 2rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: justify;
+}
+
+@media (max-width: 500px) {
+  .maindiv {
+    flex-direction: column;
+  }
 }

@@ -68,9 +68,7 @@ export default function Home() {
       </main>
 
       <Projects />
-      <Projects />
-      <Projects />
-      <Projects />
+   
 
       <FooterBar />
     </div>
