@@ -31,9 +31,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://maninder.dev">Maninder.dev</a>
+          {/* Welcome to <a href="https://maninder.dev">Maninder.dev</a> */}
+          Under Construction
         </h1>
-
         {/* <p className={styles.description}> </p> */}
 
         {/* <div className={styles.grid}>
@@ -67,10 +67,9 @@ export default function Home() {
         </div> */}
       </main>
 
-      <Projects />
-   
+      {/* <Projects /> */}
 
-      <FooterBar />
+      {/* <FooterBar /> */}
     </div>
   );
 }
